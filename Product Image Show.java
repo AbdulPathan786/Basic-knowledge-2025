@@ -1,0 +1,1 @@
+IF( NOT( ISBLANK(Product__r.Product_Id__c) ) , IMAGE("/sfc/servlet.shepherd/version/download/"+ Product__r.Product_Id__c , "", 98,115), '')
